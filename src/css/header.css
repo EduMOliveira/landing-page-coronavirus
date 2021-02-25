@@ -1,0 +1,143 @@
+.main__header {
+  width: 100%;
+  position: absolute;
+}
+
+.main__header-container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1600px;
+  min-height: 60px;
+
+  margin: 0 auto;
+  padding: 0px 7% 0px 5%;
+}
+
+.main__logo {
+  min-height: 60px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+
+.main__items.show {
+  display: flex;
+}
+
+.main__btn {
+  visibility: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  min-height: 60px;
+  right: 30px;
+
+  transform: rotate(0deg);
+  cursor: pointer;
+
+  z-index: 999;
+}
+
+.main__btn span {
+  margin: 2.9px;
+  height: 4px;
+  width: 28px;
+  background: #ffffff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+}
+
+.main__btn span:nth-child(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.main__btn span:nth-child(2) {
+  top: 9px;
+  transform-origin: left center;
+}
+
+.main__btn span:nth-child(3) {
+  top: 18px;
+  transform-origin: left center;
+}
+
+.main__btn.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: -3px;
+}
+
+.main__btn.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.main__btn.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 17px;
+}
+
+.main__items {
+  display: flex;
+  flex-direction: row;
+  right: 40px;
+
+  z-index: 998;
+}
+
+.main__items > a {
+  user-select: none;
+  padding-left: 45px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+}
+
+.main__items > a:hover {
+  color: #d4bef6;
+  transition: 200ms linear;
+}
+
+@media screen and (max-width: 900px) {
+  .main__btn {
+    visibility: visible;
+  }
+
+  .main__btn span {
+    transition: 0.25s ease-in-out;
+  }
+
+  .main__items {
+    display: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8958d1;
+  }
+
+  .main__items > a {
+    padding-left: 0px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
