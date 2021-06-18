@@ -62,9 +62,10 @@ body {
 }
 
 .main__content-intro > p {
-  font-family: "Alfa Slab One", cursive;
+  font-family: "Bungee", cursive;
   font-weight: 400;
-  font-size: 2.3rem;
+  line-height: 30px;
+  font-size: 2.6rem;
 }
 
 .main__content-intro > span {
@@ -219,10 +220,8 @@ body {
   flex-shrink: 0; /* IE FIX */
 
   width: 100%;
-  margin-top: 110px;
-  margin-bottom: 100px;
 
-  background-image: linear-gradient(to left top, #7e0cc8, #8c24d3, #9a35de, #a744e9, #b553f4);
+  background-image: linear-gradient(to left top, #932cd8, #9d36e2, #993dd6, #ad58e6, #c774fa);
   box-shadow: 5px 11px 50px 10px rgba(125, 12, 200, 0.384);
 }
 
@@ -238,7 +237,7 @@ body {
 }
 
 .features__imageContainer {
-  max-width: 750px;
+  max-width: 710px;
   padding: 20px;
   flex-shrink: 0; /* IE FIX */
 }

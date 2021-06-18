@@ -46,7 +46,8 @@
 }
 
 .footer__content > span {
-  font-family: "Alfa Slab One", cursive;
+  font-family: "Bungee", cursive;
+  line-height: 15px;
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 1px;
