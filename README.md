@@ -2,7 +2,7 @@
 <h1 align="center">
 <img
 		alt="CovidTracker - WEB"
-		src="https://edumoliveira.github.io/lp-corona/src/assets/img/logo-black-sm.png">
+		src="https://edumoliveira.github.io/landing-page-coronavirus/src/assets/img/logo-black-sm.png">
 </h1>
 <h3 align="center">
 	CovidTracker - Landing Page
@@ -33,7 +33,7 @@
 A Landing Page CovidTracker foi desenvolvida utilizando HTML, CSS e JavaScript para auxiliar na divulgação da aplicação mobile [CovidTracker Mobile](https://github.com/EduMOliveira/react-native-coronavirus) por meio de uma página responsiva capaz de apresentar o aplicativo ao usuário.
 
 ## Demo
-Versão de demonstração: [CovidTracker](https://edumoliveira.github.io/lp-corona/)
+Versão de demonstração: [CovidTracker](https://edumoliveira.github.io/landing-page-coronavirus/)
 
 
 ## License
