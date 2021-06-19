@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-	<img alt="Licence" src="https://img.shields.io/github/license/EduMOliveira/lp-corona.svg?style=flat-square">
+	<img alt="Licence" src="https://img.shields.io/github/license/EduMOliveira/landing-page-coronavirus.svg?style=flat-square">
 </p>
 
 
@@ -38,7 +38,7 @@ Versão de demonstração: [CovidTracker](https://edumoliveira.github.io/landing
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/EduMOliveira/lp-corona/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/EduMOliveira/landing-page-coronavirus/blob/master/LICENSE) file for details.
 
 <h3 align="left">Connect with me:</h3>  
 <p align="left">  
